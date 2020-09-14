@@ -1,4 +1,4 @@
-# HandJs library
+# Hand.js library
 HandJs library is a library for hand posture detection via a webcam.
 More info: https://hand-js.com/
 
@@ -7,9 +7,9 @@ The library is **locked** against the localhost domain. If you want to use it on
 
 ### Sample
 
-    var handJS = new HandJS(gesture => 
+    var handJS = new HandJS(action => 
     {
-        if (gesture === 'HandDetected') 
+        if (action === 'HandDetected') 
            console.log('Hand detected :-)');
         else
            console.log('Hand lost :-(');
